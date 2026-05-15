@@ -1,0 +1,9 @@
+item,qty,material_or_spec,prototype_role,estimated_cost_status,authority_notes
+Flat silhouette blank,1,3 mm MDF plywood or acrylic,DXF review mule,estimate_needed,Use for outline and ergonomics only
+Soundboard test panel,1,Spruce cedar paulownia or plywood offcut,material response coupon,estimate_needed,Not final body thickness
+Neck mockup strip,1,Hardwood strip,neck width and hand-feel check,estimate_needed,Dimensions provisional
+Bridge mockup,1,Hardwood block,bridge footprint review,estimate_needed,Placement unresolved
+String set,1,Four pipa/guitar-like test strings,string path and tension planning,estimate_needed,Final gauges require reference review
+Temporary frets,24,Removable tape or low tack strips,fret visualization,estimate_needed,Do not use as final fret schedule
+Reference measurement tools,1,Calipers ruler flexible curve camera,validation kit,owned_or_borrowed,Required before CNC-ready geometry
+

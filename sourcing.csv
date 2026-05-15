@@ -1,0 +1,7 @@
+item,required_spec,search_terms,source_status,notes
+Flat silhouette blank,3 mm sheet that can be laser cut or scroll-sawn,3mm MDF acrylic plywood sheet,common,Use inexpensive material for review mule
+Pipa reference member,Measured physical instrument or credible orthographic plan,pipa measurements pipa plan luthier reference,required_before_final,Needed for final outline fret bridge and pegbox claims
+Pipa strings,Four-string pipa set or comparable temporary strings,pipa strings set,prototype_ok,Use temporary setup for visualization only
+Hardwood bridge blank,Small dense hardwood offcut,pipa bridge hardwood blank,prototype_ok,Bridge height and footprint unresolved
+Fret material,Temporary removable strips or sacrificial stock,pipa frets temporary fret stock,prototype_ok,Final fret geometry requires intonation plan
+

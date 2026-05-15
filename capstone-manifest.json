@@ -1,0 +1,42 @@
+{
+  "packet_id": "pipa-image-grounded-prototype",
+  "title": "Pipa Image-Grounded Prototype Packet",
+  "issue": "tonykoop/instrument-maker#151",
+  "readiness": "L2 prototype scaffold",
+  "fabrication_authority": [
+    "cad/v2-dxf-starter.dxf"
+  ],
+  "non_authority_visuals": [
+    "concept-image-prompt-brief.md",
+    "private_round8_reference_photo_not_in_repo"
+  ],
+  "explicitly_unresolved": [
+    "rear shell depth and carve",
+    "pegbox side profile and break angle",
+    "final fret geometry",
+    "final bridge placement",
+    "soundboard thickness and bracing"
+  ],
+  "files_included": [
+    "README.md",
+    "design.md",
+    "cad/v2-dxf-starter.dxf",
+    "cad-notes.md",
+    "bom.csv",
+    "sourcing.csv",
+    "cut-list.csv",
+    "drawing-brief.md",
+    "visual-bom-brief.md",
+    "assembly-manual.md",
+    "supplier-rfq.md",
+    "risks.md",
+    "wolfram-starter.wl",
+    "validation.csv",
+    "visual-output-register.csv",
+    "concept-image-prompt-brief.md",
+    "capstone-deck.md",
+    "print-packet.md",
+    "print-packet.html",
+    "capstone-manifest.json"
+  ]
+}

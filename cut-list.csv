@@ -1,0 +1,6 @@
+part,qty,material,rough_dimensions_mm,final_dimensions_mm,authority,status,notes
+Flat silhouette body mule,1,3 mm MDF plywood or acrylic,240 x 720 x 3,derive from DXF-001,DXF-001,prototype_only,Outline review only
+Temporary neck overlay,1,hardwood or plywood strip,60 x 300 x 6,measure after reference review,unresolved,pending,Do not lock final neck thickness
+Bridge placeholder,1,hardwood offcut,60 x 20 x 12,measure after scale review,unresolved,pending,Footprint and height unresolved
+Temporary fret strips,24,tape or sacrificial strip stock,variable,derive after scale review,unresolved,pending,Visualization only
+
