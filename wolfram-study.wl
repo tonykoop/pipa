@@ -3,7 +3,7 @@
    It is not fabrication authority. *)
 
 scaleLengthMm = 725.;
-maxSemitone = 24;
+maxSemitone = 30;
 
 fretRows = Prepend[
   Table[

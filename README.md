@@ -31,7 +31,7 @@ dimensions are claimed.
 | `cut-list.csv` | Candidate blanks, coupons, and templates with `TBD` dimensions. |
 | `validation-loop.csv` | Scale, fret, bridge, tension, soundboard, and tuning gates. |
 | `drawing-brief.md` | CAD/DXF authority plan and promotion requirements. |
-| `wolfram-study.md` | Wolfram evidence for 12-TET fret study math. |
+| `wolfram-study.md` | Wolfram evidence for 12-TET fret study math through semitone index 30. |
 | `wolfram-study.wl` | Diffable Wolfram source for the fret-position study. |
 | `risks.md` | Starter acoustic, fabrication, sourcing, and scope risks. |
 
@@ -54,9 +54,13 @@ B.C. Chinese Music Association describes the pipa as a pear-shaped four-string
 lute with a fretboard in the 20 to 25 fret range:
 https://www.bccma.net/instruments/pipa/
 
-The Wolfram study uses the 725 mm effective string length and 30-fret modern
-pipa model reported in Ningxin Zhang, "Using a Waveguide to Model the Pipa in
-Csound":
+The Wolfram study uses the 725 mm effective string length and reported 30-fret
+modern pipa model from Ningxin Zhang, "Using a Waveguide to Model the Pipa in
+Csound," only as math-study inputs. It does not assert measured fret locations:
 https://csound.com/icsc2022/proceedings/Using%20a%20Waveguide%20to%20Model%20the%20Pipa%20in%20Csound.pdf
 
 These references do not make this repository build-ready.
+
+No supplied reference image was present in this repository, issue, or PR during
+this pass, so there are no image-observed body, fret, bridge, or material facts
+in the current packet.

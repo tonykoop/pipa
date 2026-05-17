@@ -26,6 +26,7 @@ placement, bridge location, string tension, and soundboard response.
 | Reference tuning | A2 D3 E3 A3 | Zhang 2022 Csound paper | reference-only |
 | Soundboard/body material | Published references commonly describe a wooden pear-shaped instrument; project material selection remains open | Published references plus maker review needed | measurement-required |
 | Fabrication process | CAD/DXF layout after measurement | Sprint assignment and instrument-maker visual authority rule | assumption |
+| Supplied reference image | None present in repo, issue, or PR during this pass | Local repo and GitHub review | not-available |
 
 ## Current Assumptions
 
@@ -33,9 +34,9 @@ placement, bridge location, string tension, and soundboard response.
   courses.
 - The scale and fret study starts from a 725 mm reference length only to test
   math and file shape.
-- Equal-tempered fret positions are a CAD study baseline. A real pipa layout
-  may need instrument-specific fret heights, compensation, and measured
-  placement.
+- Equal-tempered semitone positions 0 through 30 are a CAD study baseline for
+  checking the math path. A real pipa layout may need instrument-specific fret
+  heights, compensation, and measured placement.
 - Bridge placement cannot be finalized from nominal scale length alone.
 - Body bowl, back thickness, soundboard thickness, brace pattern, and bridge
   footprint are all `measurement-required`.
