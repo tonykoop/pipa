@@ -8,8 +8,10 @@ deliverable should let a maker, CAD modeler, or reviewer see the proposed front
 layout and next measurements without mistaking inferred photo geometry for final
 instrument dimensions.
 
-Readiness: L2 prototype scaffold. Use for concept review, drawing iteration,
-measurement planning, and first flat silhouette mule only.
+Readiness: L2 V5 build-packet candidate. Use for concept review, drawing
+iteration, measurement planning, source-only fret/scale modeling, and first flat
+silhouette mule only. L3/L4 promotion is blocked until measured or reviewed
+authority exists for critical geometry.
 
 ## Provenance
 
@@ -28,9 +30,9 @@ as provisional until the source image or a measured reference member is reviewed
 
 | Feature | Packet Treatment | Authority |
 | --- | --- | --- |
-| Pear/teardrop front silhouette | Captured as a symmetric DXF starter outline for scale and tracing review. | Prototype DXF only. |
-| Neck centerline and body centerline | Included as registration lines. | Prototype DXF only. |
-| Four-string path | Included as visual/string-layout reference lines. | Prototype DXF only; not final string spacing. |
+| Pear/teardrop front silhouette | Captured as a symmetric DXF starter outline for scale and tracing review. | L2 prototype DXF only; replace or approve from measured template before L3. |
+| Neck centerline and body centerline | Included as registration lines. | L2 prototype DXF only. |
+| Four-string path | Included as visual/string-layout reference lines. | L2 prototype DXF only; not final string spacing. |
 | Bridge block location | Marked as provisional. | Requires measured scale length and reference pipa review. |
 | Fret positions | Shown as placeholders only. | Unresolved; requires scale, temperament, action, and reference review. |
 | Soundboard thickness and bracing | Not specified. | Requires luthier/CAD review and material testing. |
@@ -40,7 +42,8 @@ as provisional until the source image or a measured reference member is reviewed
 
 ## DXF Starter Scope
 
-`cad/v2-dxf-starter.dxf` is a 2D front-layout starter with separate layers for:
+`cad/v2-dxf-starter.dxf` and `drawings/pipa-v5-starter.dxf` are the same 2D
+front-layout starter with separate layers for:
 
 - `AUTH_OUTLINE`: reviewable prototype body/neck outline.
 - `REFERENCE_CENTERLINES`: center and registration geometry.
@@ -50,6 +53,17 @@ as provisional until the source image or a measured reference member is reviewed
 
 The DXF deliberately avoids rear shell contours, pegbox side elevation, final
 fret spacing, and tooling details.
+
+## V5 Authority Chain
+
+| Artifact | Current authority | Promotion blocker |
+| --- | --- | --- |
+| `family-spec.csv` | Single-instrument inventory and unknown list. | Needs measured scale length, body stations, and reference review rows. |
+| `cad/pipa.scad` | Source-only parametric scaffold for review. | Needs dimensions loaded from measured template or design table before fabrication. |
+| `cad/v2-dxf-starter.dxf` | Flat outline review geometry only. | Needs CAD import check and measured-template comparison. |
+| `drawings/pipa-v5-starter.dxf` | V5 drawings-path copy of the starter DXF. | Same blockers as `cad/v2-dxf-starter.dxf`. |
+| `wolfram/fret-scale-study.wl` | Source-only fret/scale equations and missing-measurement gate. | Needs Wolfram execution and measured scale input before fret claims. |
+| Generated or refined images | Concept-only communication. | Cannot promote to fabrication authority. |
 
 ## Next Measurements
 
@@ -62,4 +76,3 @@ Before advancing beyond a flat mule, capture:
 - neck width at nut/body join and string spacing;
 - pegbox side profile, tuner/peg geometry, and break angle;
 - rear shell depth map or cross-sections at lower, waist, and upper stations.
-

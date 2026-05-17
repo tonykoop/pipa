@@ -1,5 +1,6 @@
 artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,notes
-DXF-001,cad/v2-dxf-starter.dxf,dxf,fabrication_geometry,fabrication,,derived_from_authority,Prototype front-layout authority only
+DXF-001,cad/v2-dxf-starter.dxf,dxf,fabrication_geometry,fabrication,,derived_from_authority,Prototype front-layout authority only; not final CNC geometry
+DXF-002,drawings/pipa-v5-starter.dxf,dxf,fabrication_geometry,fabrication,DXF-001,derived_from_authority,V5 drawings-path copy of DXF-001 for migration review
+CAD-SCAD-001,cad/pipa.scad,cad,cnc_reference,reference_only,"DXF-001;FAMILY-001;MEAS-INTAKE",none,Source-only scaffold until measured dimensions replace placeholders; not fabrication authority yet
 IMG-PROMPT-001,concept-image-prompt-brief.md,image_gen_2_prompt,concept,concept_only,DXF-001,none,Prompt explicitly forbids dimensions and toolpaths
 PHOTO-REF-001,private_round8_reference_photo_not_in_repo,photo_reference,photo_reference,reference_only,,none,Do not publish private source photo; review locally before final geometry
-

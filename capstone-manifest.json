@@ -2,9 +2,10 @@
   "packet_id": "pipa-image-grounded-prototype",
   "title": "Pipa Image-Grounded Prototype Packet",
   "issue": "tonykoop/instrument-maker#151",
-  "readiness": "L2 prototype scaffold",
+  "readiness": "L2 V5 build-packet candidate",
   "fabrication_authority": [
-    "cad/v2-dxf-starter.dxf"
+    "cad/v2-dxf-starter.dxf",
+    "drawings/pipa-v5-starter.dxf"
   ],
   "non_authority_visuals": [
     "concept-image-prompt-brief.md",
@@ -20,17 +21,25 @@
   "files_included": [
     "README.md",
     "design.md",
+    "family-spec.csv",
+    "measurement-intake.csv",
+    "validation-loop.csv",
     "cad/v2-dxf-starter.dxf",
+    "drawings/pipa-v5-starter.dxf",
+    "cad/pipa.scad",
+    "cad/mcp-session-log.md",
     "cad-notes.md",
     "bom.csv",
     "sourcing.csv",
     "cut-list.csv",
     "drawing-brief.md",
+    "photo-shotlist.md",
     "visual-bom-brief.md",
     "assembly-manual.md",
     "supplier-rfq.md",
     "risks.md",
     "wolfram-starter.wl",
+    "wolfram/fret-scale-study.wl",
     "validation.csv",
     "visual-output-register.csv",
     "concept-image-prompt-brief.md",
