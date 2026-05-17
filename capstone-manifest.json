@@ -1,7 +1,8 @@
 {
   "packet_id": "pipa-image-grounded-prototype",
   "title": "Pipa Image-Grounded Prototype Packet",
-  "issue": "tonykoop/instrument-maker#151",
+  "issue": "tonykoop/pipa#1",
+  "prior_issue_context": "tonykoop/instrument-maker#151",
   "readiness": "L2 V5 build-packet candidate",
   "fabrication_authority": [
     "cad/v2-dxf-starter.dxf",
@@ -21,6 +22,9 @@
   "files_included": [
     "README.md",
     "design.md",
+    "source-media-evidence.csv",
+    "fret-scale-evidence.csv",
+    "cad-dxf-authority-plan.md",
     "family-spec.csv",
     "measurement-intake.csv",
     "validation-loop.csv",

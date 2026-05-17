@@ -9,4 +9,7 @@ DXF import,Open starter DXF in CAD and confirm millimeter scale,Overall height a
 Flat silhouette mule,Laser cut or print outline from DXF,Centerline and outline align with reference photo after scale adjustment,pending,First shop validation step
 Reference-member measurement,Measure real pipa or reviewed orthographic plan,Rear shell pegbox side profile bridge and fret geometry have source-backed dimensions,pending_required_before_final,Blocks CNC-ready claim
 Fret schedule,Derive from measured scale length and playing model,Fret positions documented with formula and reference,pending_required_before_final,Current DXF frets are placeholders only
+Source-media evidence table,Review source-media-evidence.csv for each historical media/input source,Every available/missing/private/future source has an explicit authority and next action,ready,B3 table added; source media is still missing/private and does not promote geometry
+Fret-scale evidence table,Review fret-scale-evidence.csv before CAD or notebook updates,Fret scale bridge and string-spacing blockers are explicit before geometry changes,ready,B3 table added; measured inputs remain pending before final fret claims
+CAD/DXF authority plan,Review cad-dxf-authority-plan.md before revising DXF,Plan separates reference assumptions L2 DXF source-only CAD/notebook files and future measured authority,ready,B3 plan added; no CNC-ready claim
 Concept imagery check,Review generated images against prompt brief,Images contain no dimensions toolpaths or cut-ready layouts,pending,Concept-only communication asset

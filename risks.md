@@ -2,9 +2,10 @@
 
 ## Evidence Risks
 
-- Round 8 source files were named by issue #151 but were not available in this
-  checkout, so the repo packet preserves provenance without embedding private
-  or missing media.
+- Round 8 source files were named by the prior `tonykoop/instrument-maker#151`
+  context and are still needed for `tonykoop/pipa#1`, but were not available in
+  this checkout, so the repo packet preserves provenance without embedding
+  private or missing media.
 - A single angled photo can distort outline, fret spacing, bridge placement,
   and pegbox angle.
 
