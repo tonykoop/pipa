@@ -1,0 +1,9 @@
+item_id,item_name,category,qty,unit,material_or_spec,status,source_status,notes
+B001,Body bowl/back blank,material,TBD,each,hardwood or laminated shell TBD,measurement-required,supplier_spec_unverified,Body shell geometry and material choice must follow measured reference and shop process review.
+B002,Soundboard blank,material,TBD,each,wood species thickness and grain TBD,measurement-required,supplier_spec_unverified,Soundboard response and bridge footprint must be tested before build readiness.
+B003,Neck and headstock blank,material,TBD,each,stable hardwood TBD,measurement-required,supplier_spec_unverified,Neck angle pegbox geometry and joint details require measured reference.
+B004,Fret stock,component,TBD,set,bamboo hardwood synthetic or other fret material TBD,measurement-required,substitution_candidate,Fret height crown width and attachment method control intonation and playability.
+B005,Bridge blank,component,TBD,each,bridge material and saddle detail TBD,measurement-required,substitution_candidate,Bridge placement and compensation are blocked until scale and tension review.
+B006,String set,component,1,set,pipa string gauges TBD,measurement-required,supplier_spec_unverified,Verify gauges material tuning and tension before loading the soundboard.
+B007,Tuning pegs or machine heads,hardware,4,each,TBD,assumption,supplier_spec_unverified,Selection depends on pegbox geometry serviceability and traditional-vs-modern direction.
+B008,Adhesive and finish,finish,TBD,TBD,TBD,assumption,needs_supplier_quote,Verify compatibility with selected woods string contact and future repair.

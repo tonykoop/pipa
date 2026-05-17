@@ -1,0 +1,6 @@
+part_id,part_name,qty,material,dimension_status,length_mm,width_mm,thickness_mm,authority,next_action,notes
+C001,Scale and fret layout template,1,paper acrylic or MDF,measurement-required,TBD,TBD,TBD,future_dxf,Measure target scale and generate DXF from reviewed design table,Template must not be cut from the 725 mm study without review.
+C002,Soundboard test coupon,TBD,selected soundboard stock,measurement-required,TBD,TBD,TBD,test_coupon,Define coupon sizes after stock selection,Use for tap response deflection and bridge-footprint tests.
+C003,Bridge-footprint test coupon,TBD,soundboard offcut plus bridge blank,measurement-required,TBD,TBD,TBD,test_coupon,Test bridge glue area downbearing and response,Blocks bridge CAD release.
+C004,Body profile templates,1,set,template stock,measurement-required,TBD,TBD,TBD,future_dxf,Trace or scan measured reference pipa,Controls bowl outline rim neck pocket and ergonomics.
+C005,Fret-height gauge,1,template stock,measurement-required,TBD,TBD,TBD,future_dxf,Measure reference fret heights and crown widths,Needed because pipa frets are not simply flat guitar frets.

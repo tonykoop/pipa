@@ -1,0 +1,7 @@
+source_id,item_name,search_or_vendor,status,current_price_status,lead_time_status,verification_needed,notes
+S001,Reference pipa,local instrument owner museum object or vendor listing,needed,not_checked,not_checked,Find a physical instrument or measured drawing with permission to measure,Required before adopting body scale bridge or fret dimensions.
+S002,Pipa string set,pipa replacement strings search,needed,not_checked,not_checked,Verify gauges materials tuning and unit weight,Needed for string tension and top loading checks.
+S003,Soundboard stock,quarter-sawn softwood or traditional pipa soundboard supplier search,candidate,not_checked,not_checked,Confirm species dimensions moisture content and defect limits,No purchase recommendation yet.
+S004,Body shell stock,hardwood blank laminate or carved-bowl stock search,candidate,not_checked,not_checked,Confirm stock size stability tooling and waste allowance,Body process choice may change architecture.
+S005,Fret stock,bamboo hardwood or synthetic fret material search,candidate,not_checked,not_checked,Confirm height consistency wear behavior and attachment method,Fret material affects intonation and serviceability.
+S006,Tuning hardware,traditional peg or machine-head supplier search,candidate,not_checked,not_checked,Confirm dimensions ratio if geared and compatibility with headstock,Hardware choice should follow player and maintenance target.
