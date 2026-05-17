@@ -2,11 +2,13 @@
 
 ## Authority Boundary
 
-The starter DXF is the only fabrication-authority artifact in this packet, and
-only for prototype front-layout review. It is not a final cut file. Any CAD
-model built from it must preserve the unresolved flags for fret geometry, rear
-shell, and pegbox side profile until measured or reference-reviewed evidence is
-added.
+The starter DXF files are the only fabrication-authority artifacts in this
+packet, and only for prototype front-layout review. They are not final cut
+files. `cad/pipa.scad` is source-only parametric scaffolding until dimensions
+trace to `measurement-intake.csv`, a design table, measured template, or a
+reviewed drawing. Any CAD model built from these files must preserve the
+unresolved flags for fret geometry, rear shell, and pegbox side profile until
+measured or reference-reviewed evidence is added.
 
 ## Layer Contract
 
@@ -26,4 +28,5 @@ added.
 3. Trace or replace `AUTH_OUTLINE` from a measured front template.
 4. Add side and rear elevations only after measured references are available.
 5. Generate shop drawings with revision notes naming the measurement source.
-
+6. Record any external CAD, MCP, or creative-tool session in
+   `cad/mcp-session-log.md` before treating the output as packet evidence.

@@ -1,0 +1,12 @@
+measurement_id,feature,required_for,method,source_status,target_or_units,current_value,status,blocks_l3,notes
+MEAS-001,overall length,L3 outline authority,"measure physical pipa or reviewed orthographic plan",missing,mm,,pending,yes,Do not scale final body from angled photo.
+MEAS-002,body max width and station,L3 outline authority,"measure lower bout max width and distance from nut or tail datum",missing,mm,,pending,yes,Needed to replace starter outline.
+MEAS-003,waist and upper bout stations,L3 outline authority,"trace measured template or reviewed plan",missing,mm,,pending,yes,Needed for CNC or mold-ready outline.
+MEAS-004,nut to bridge scale length,L3 fret and bridge authority,"measure active string length on reference member",missing,mm,,pending,yes,Primary input for Wolfram fret/scale study.
+MEAS-005,string spacing at nut and bridge,L3 playability authority,"measure string centers on reference member",missing,mm,,pending,yes,Current string paths are visual only.
+MEAS-006,fret count and fret height set,L3 fret authority,"document frets on reference member with station and height",missing,mm,,pending,yes,Blocks any final fret cutting.
+MEAS-007,bridge footprint and height,L3 bridge authority,"measure bridge contact patch and saddle height",missing,mm,,pending,yes,Current bridge block is provisional.
+MEAS-008,soundboard thickness and bracing,L3 structural authority,"measure or obtain reviewed luthier drawing",missing,mm,,pending,yes,Not inferable from front photo.
+MEAS-009,rear shell depth stations,L3 body carving authority,"measure lower waist upper cross-sections",missing,mm,,pending,yes,Blocks rear shell model.
+MEAS-010,pegbox side profile and break angle,L3 pegbox authority,"measure side elevation or reviewed side drawing",missing,degrees/mm,,pending,yes,Blocks pegbox fabrication.
+MEAS-011,reference image archive,L2 provenance closeout,"archive source photo notes or private local reference pointer",missing,path_or_issue_link,,blocked,yes,Do not publish private media without review.

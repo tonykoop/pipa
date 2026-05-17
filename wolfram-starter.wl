@@ -3,7 +3,7 @@
    source of final fret locations. *)
 
 packet = "pipa-image-grounded-prototype";
-readiness = "L2 prototype scaffold";
+readiness = "L2 V5 build-packet candidate";
 
 requiredMeasurements = {
   "overall_length_mm",
@@ -18,4 +18,4 @@ requiredMeasurements = {
 };
 
 Print[packet <> ": collect measured reference values before fret or CNC claims."];
-
+Print["Run wolfram/fret-scale-study.wl only after measured scale length is available."];
