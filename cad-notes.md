@@ -30,3 +30,11 @@ measured or reference-reviewed evidence is added.
 5. Generate shop drawings with revision notes naming the measurement source.
 6. Record any external CAD, MCP, or creative-tool session in
    `cad/mcp-session-log.md` before treating the output as packet evidence.
+
+## B3 Fret/Scale Inputs
+
+Do not edit fret bands, string slots, bridge features, or active scale geometry
+until `fret-scale-evidence.csv` has completed source rows for MEAS-004 through
+MEAS-007. If the DXF is revised before those rows exist, keep the relevant
+layers named `PROVISIONAL_STRINGS`, `PROVISIONAL_BRIDGE`, and
+`UNRESOLVED_FRETS`, and cite `cad-dxf-authority-plan.md` in the revision note.

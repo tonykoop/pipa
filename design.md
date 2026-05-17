@@ -15,7 +15,8 @@ authority exists for critical geometry.
 
 ## Provenance
 
-Issue #151 cites these Round 8 sources as the promotion basis:
+`tonykoop/pipa#1` carries prior `tonykoop/instrument-maker#151` context and
+cites these Round 8 sources as the promotion basis:
 
 - `/tmp/twingrid-r8-gpt55-dan-pipa/build_packet.md`
 - `/tmp/twingrid-r8-gpt55-dan-pipa/image_access_preflight.md`
@@ -58,6 +59,9 @@ fret spacing, and tooling details.
 
 | Artifact | Current authority | Promotion blocker |
 | --- | --- | --- |
+| `source-media-evidence.csv` | Source availability and assumption-control register. | Needs recovered private source pointers or replacement reviewed references. |
+| `fret-scale-evidence.csv` | Fret/scale/bridge evidence gate; no geometry authority yet. | Needs measured scale length, fret set, string spacing, bridge datum, and reviewed model. |
+| `cad-dxf-authority-plan.md` | CAD/DXF revision plan and no-go list. | Needs completed measurement/source rows before final CAD revision. |
 | `family-spec.csv` | Single-instrument inventory and unknown list. | Needs measured scale length, body stations, and reference review rows. |
 | `cad/pipa.scad` | Source-only parametric scaffold for review. | Needs dimensions loaded from measured template or design table before fabrication. |
 | `cad/v2-dxf-starter.dxf` | Flat outline review geometry only. | Needs CAD import check and measured-template comparison. |

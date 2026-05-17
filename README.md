@@ -3,7 +3,8 @@
 Status: L2 V5 build-packet candidate.
 
 This packet promotes the Round 8 pipa exploration into a repo-tracked,
-DXF-first V5 candidate packet for issue #151. It is intentionally useful for
+DXF-first V5 candidate packet for `tonykoop/pipa#1`, carrying prior
+`tonykoop/instrument-maker#151` context. It is intentionally useful for
 layout review, visual planning, sourcing, Wolfram source-first fret/scale
 study, and first measurement work, while refusing to claim that one angled
 reference photo can determine final CNC geometry.
@@ -20,6 +21,9 @@ profile, rear shell depth, or toolpaths.
 | File | Purpose |
 | --- | --- |
 | `design.md` | Visible/inferred/unresolved geometry split and prototype intent. |
+| `source-media-evidence.csv` | Source-media availability and reference-assumption authority table. |
+| `fret-scale-evidence.csv` | Fret, scale, bridge, string-spacing evidence gates and blocked claims. |
+| `cad-dxf-authority-plan.md` | CAD/DXF revision plan separating assumptions from fabrication authority. |
 | `family-spec.csv` | Single-instrument family/spec equivalent for V5 packet inventory. |
 | `measurement-intake.csv` | Measurement checklist that blocks L3/L4 promotion until complete. |
 | `validation-loop.csv` | Empirical validation loop scaffold for future build feedback. |
@@ -52,6 +56,15 @@ Start with a flat acrylic, MDF, or plywood silhouette mule from the DXF starter,
 then overlay full-scale prints against the original reference photo and a real
 pipa or published reference measurements before generating any carved body,
 rear shell, pegbox side profile, or final fret layout.
+
+## B3 Evidence Gate
+
+Use `source-media-evidence.csv` to decide which reference facts are available,
+private, missing, or future validation evidence. Use `fret-scale-evidence.csv`
+before changing any fret, scale, bridge, or string-spacing geometry. Use
+`cad-dxf-authority-plan.md` as the CAD/DXF promotion checklist; it keeps the
+historical pipa-reference assumptions separate from the repo-tracked L2 DXF
+and future measured fabrication authority.
 
 ## Explicit Non-Claims
 
