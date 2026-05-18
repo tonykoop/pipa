@@ -58,6 +58,7 @@
   "files_included": [
     "README.md",
     "explorer.html",
+    "explorer-sections/overview.html",
     "explorer-sections/cad.html",
     "explorer-sections/extra.html",
     "site/index.html",
