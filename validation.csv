@@ -1,5 +1,6 @@
 gate,method,pass_condition,status,notes
 Source evidence review,Confirm Round 8 photo packet or equivalent source is available,Source image and notes are archived or linked without publishing private media,blocked_missing_source,Issue references existed but /tmp sources were absent in this checkout
+Source-media evidence table,Review source-media-evidence.csv for each historical media or reviewed input,Every available or missing source has explicit authority,ready_for_l2,B3 table adapted for A5 scope: source claims are constrained until media or provenance is recovered.
 Visual authority register,Run validate_visual_authority.py on visual-output-register.csv,Validator exits 0,ready,Confirms image-gen prompts are concept-only
 V5 readiness label,Review README and manifest status against V5 approved values,Status line is exactly L2 V5 build-packet candidate,ready,Does not claim build-ready geometry
 MCP provenance log,Review cad/mcp-session-log.md for packet-local provenance rows,Rows name tool role outputs authority result and unresolved assumptions,ready,Starter log records current non-MCP text/CAD provenance and unknown historical tooling
