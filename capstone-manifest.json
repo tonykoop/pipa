@@ -1,9 +1,29 @@
 {
   "packet_id": "pipa-image-grounded-prototype",
   "title": "Pipa Image-Grounded Prototype Packet",
+  "instrument": "pipa",
+  "build_target": "Pipa flat-outline review packet",
+  "artifact_focus": "root-level explorer showcase for the L2 V5 pipa packet",
   "issue": "tonykoop/pipa#1",
   "prior_issue_context": "tonykoop/instrument-maker#151",
   "readiness": "L2 V5 build-packet candidate",
+  "release_status": "private review",
+  "packet_version": "V5 L2 root packet",
+  "family_members": [
+    "pipa",
+    "plucked lute",
+    "chordophone"
+  ],
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Recover or replace the private Round 8 source-media evidence before making image-derived claims public.",
+      "Measure a reference pipa or reviewed orthographic plan before final fret, bridge, shell, or pegbox geometry.",
+      "Run CAD/DXF import checks in millimeters and record results before treating the starter DXFs as more than flat-review authority.",
+      "Execute Wolfram studies only after measured inputs exist; keep current notebook files source-only.",
+      "Review public-safe imagery and cultural/source credits before publishing a full site."
+    ]
+  },
   "fabrication_authority": [
     "cad/v2-dxf-starter.dxf",
     "drawings/pipa-v5-starter.dxf"
@@ -19,8 +39,28 @@
     "final bridge placement",
     "soundboard thickness and bracing"
   ],
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "wolfram-starter.wl",
+        "cloud_path": "wolfram-starter.wl",
+        "kind": "measurement-starter",
+        "permission": "local"
+      },
+      {
+        "source_file": "wolfram/fret-scale-study.wl",
+        "cloud_path": "wolfram/fret-scale-study.wl",
+        "kind": "fret-scale-source-study",
+        "permission": "local"
+      }
+    ]
+  },
   "files_included": [
     "README.md",
+    "explorer.html",
+    "explorer-sections/cad.html",
+    "explorer-sections/extra.html",
+    "site/index.html",
     "design.md",
     "source-media-evidence.csv",
     "fret-scale-evidence.csv",

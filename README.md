@@ -16,10 +16,18 @@ concept images, prompt text, and photo-derived sketches are support material
 only; they do not control outline, fret location, bridge placement, pegbox side
 profile, rear shell depth, or toolpaths.
 
+Open `explorer.html` for a studio-facing showcase of the packet evidence,
+DXF/CAD authority boundary, Wolfram source files, print packet, and validation
+gates. `site/index.html` redirects to the same explorer until a fuller public
+build-log site is ready.
+
 ## File Map
 
 | File | Purpose |
 | --- | --- |
+| `explorer.html` | Generated studio explorer for packet review. |
+| `explorer-sections/` | Local explorer section overrides for pipa authority and evidence gates. |
+| `site/index.html` | Minimal cross-link to the root explorer; not a full public site. |
 | `design.md` | Visible/inferred/unresolved geometry split and prototype intent. |
 | `source-media-evidence.csv` | Source-media availability and reference-assumption authority table. |
 | `fret-scale-evidence.csv` | Fret, scale, bridge, string-spacing evidence gates and blocked claims. |
