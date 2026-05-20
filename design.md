@@ -55,6 +55,28 @@ front-layout starter with separate layers for:
 The DXF deliberately avoids rear shell contours, pegbox side elevation, final
 fret spacing, and tooling details.
 
+## Fret-Schedule Generator (L2 Review Only)
+
+`scripts/fret_schedule.py` and `fret-schedule-exploration.csv` pair with
+`wolfram/fret-scale-study.wl` to make the equal-temperament derivation
+reviewable without a Wolfram runtime:
+
+- `python scripts/fret_schedule.py check` reads `measurement-intake.csv` and
+  reports the resolved values for `MEAS-004` and `MEAS-006` plus any
+  blockers. Exits 0.
+- `python scripts/fret_schedule.py explore --scales 660,690,720 --fret-count 24`
+  regenerates `fret-schedule-exploration.csv` deterministically (24 frets
+  across three reference scale lengths, every row tagged
+  `exploration_not_authority`).
+- `python scripts/test_fret_schedule.py` runs the offline self-check
+  asserting fret 12 lands at scale/2 and fret 24 at 3·scale/4.
+
+This generator does not modify CAD or DXF geometry. The `UNRESOLVED_FRETS`
+DXF layer remains placeholder until `MEAS-004` and `MEAS-006` carry measured
+values and the schedule is reviewed against a real pipa or a luthier-reviewed
+plan. Equal temperament is also an approximation; pipa fretting in practice
+may deviate.
+
 ## V5 Authority Chain
 
 | Artifact | Current authority | Promotion blocker |
