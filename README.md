@@ -1,6 +1,6 @@
 # Pipa Image-Grounded Prototype Packet
 
-Status: L2 V5 build-packet candidate.
+Status: L2 V5 build-packet candidate
 
 This packet promotes the Round 8 pipa exploration into a repo-tracked,
 DXF-first V5 candidate packet for `tonykoop/pipa#1`, carrying prior
