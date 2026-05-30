@@ -1,0 +1,46 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and local workspace noise
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node dependencies and local caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# CAD, office, and export temp files only
+~$*
+*.bak
+*.tmp
+*.stl.tmp
+*.SLDPRT~
+*.SLDASM~
+*.SLDDRW~
+*.sldprt.lock
+*.sldasm.lock
+*.slddrw.lock
+*.f3d.lock
+*.f3z.lock
+
+# Local render/export scratch, not committed deliverables
+scratch/
+tmp/
+temp/
+render-scratch/
+export-scratch/
+renders/scratch/
+exports/scratch/
+.cache/
