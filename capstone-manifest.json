@@ -42,8 +42,8 @@
   "engineering": {
     "wolfram": [
       {
-        "source_file": "wolfram-starter.wl",
-        "cloud_path": "wolfram-starter.wl",
+        "source_file": "pipa-starter.wl",
+        "cloud_path": "pipa-starter.wl",
         "kind": "measurement-starter",
         "permission": "local"
       },
@@ -83,7 +83,7 @@
     "assembly-manual.md",
     "supplier-rfq.md",
     "risks.md",
-    "wolfram-starter.wl",
+    "pipa-starter.wl",
     "wolfram/fret-scale-study.wl",
     "validation.csv",
     "visual-output-register.csv",
