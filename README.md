@@ -49,7 +49,7 @@ build-log site is ready.
 | `assembly-manual.md` | Flat silhouette mule assembly/review workflow. |
 | `supplier-rfq.md` | Measurement-first vendor and reviewer request. |
 | `risks.md` | Fabrication and evidence risks. |
-| `wolfram-starter.wl` | Measurement notebook starter. |
+| `pipa-starter.wl` | Measurement notebook starter. |
 | `wolfram/fret-scale-study.wl` | Source-only fret/scale study; no runtime claim yet. |
 | `validation.csv` | Measurement, drawing, and prototype validation gates. |
 | `visual-output-register.csv` | Fabrication-authority and concept-image separation. |
