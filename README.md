@@ -1,6 +1,6 @@
 # Pipa Image-Grounded Prototype Packet
 
-Status: L2 V5 build-packet candidate
+**Status:** L2 V5 build-packet candidate
 
 This packet promotes the Round 8 pipa exploration into a repo-tracked,
 DXF-first V5 candidate packet for `tonykoop/pipa#1`, carrying prior
@@ -57,6 +57,8 @@ build-log site is ready.
 | `capstone-deck.md` | Markdown review deck stub. |
 | `print-packet.md` / `print-packet.html` | Printable review packet. |
 | `capstone-manifest.json` | Machine-readable packet manifest. |
+| `wolfram/pipa-wolfram-model.wl` | Source-only interactive fret/scale model; no runtime claim yet. |
+| `evolution/` | Evolution-pipeline Stage 0 intake: master manifest, design-intent, and revision register (Gate A not yet run). |
 
 ## First Build Recommendation
 
