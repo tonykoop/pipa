@@ -4,3 +4,5 @@ DXF-002,drawings/pipa-v5-starter.dxf,dxf,fabrication_geometry,fabrication,DXF-00
 CAD-SCAD-001,cad/pipa.scad,cad,cnc_reference,reference_only,"DXF-001;FAMILY-001;MEAS-INTAKE",none,Source-only scaffold until measured dimensions replace placeholders; not fabrication authority yet
 IMG-PROMPT-001,concept-image-prompt-brief.md,image_gen_2_prompt,concept,concept_only,DXF-001,none,Prompt explicitly forbids dimensions and toolpaths
 PHOTO-REF-001,private_round8_reference_photo_not_in_repo,photo_reference,photo_reference,reference_only,,none,Do not publish private source photo; review locally before final geometry
+WL-MODEL-001,wolfram/pipa-wolfram-model.wl,wolfram_source,wolfram,derived_preview,MEAS-004,source_only,Source-only interactive fret/scale model; not executed — L2 evidence only
+WL-FRET-001,wolfram/fret-scale-study.wl,wolfram_source,wolfram,derived_preview,MEAS-004,source_only,Source-only fret/scale study; not executed — L2 evidence only
